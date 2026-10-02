@@ -1,0 +1,2 @@
+model_name,n_train,total_sv,sv_fraction,sv_per_class,n_support,inside_margin_sv,on_margin_sv
+Best SVM (GridSearch),4679,1047,0.22376576191493908,"{'Legitimate (0)': 534, 'Malicious/Phishing (1)': 513}","[534, 513]",693,726

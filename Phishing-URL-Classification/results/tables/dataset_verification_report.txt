@@ -1,0 +1,128 @@
+
+======================================================================
+  DATASET VERIFICATION REPORT
+======================================================================
+  Dataset path      : D:\phishing web link\Phishing-URL-Classification\data\raw\Training Dataset.arff
+  Target column     : Result
+
+======================================================================
+  1. SHAPE
+======================================================================
+  Rows    : 11055
+  Columns : 31
+
+======================================================================
+  2. FIRST 5 ROWS
+======================================================================
+   having_IP_Address  URL_Length  Shortining_Service  having_At_Symbol  double_slash_redirecting  Prefix_Suffix  having_Sub_Domain  SSLfinal_State  Domain_registeration_length  Favicon  port  HTTPS_token  Request_URL  URL_of_Anchor  Links_in_tags  SFH  Submitting_to_email  Abnormal_URL  Redirect  on_mouseover  RightClick  popUpWidnow  Iframe  age_of_domain  DNSRecord  web_traffic  Page_Rank  Google_Index  Links_pointing_to_page  Statistical_report  Result
+0                 -1           1                   1                 1                        -1             -1                 -1              -1                           -1        1     1           -1            1             -1              1   -1                   -1            -1         0             1           1            1       1             -1         -1           -1         -1             1                       1                  -1      -1
+1                  1           1                   1                 1                         1             -1                  0               1                           -1        1     1           -1            1              0             -1   -1                    1             1         0             1           1            1       1             -1         -1            0         -1             1                       1                   1      -1
+2                  1           0                   1                 1                         1             -1                 -1              -1                           -1        1     1           -1            1              0             -1   -1                   -1            -1         0             1           1            1       1              1         -1            1         -1             1                       0                  -1      -1
+3                  1           0                   1                 1                         1             -1                 -1              -1                            1        1     1           -1           -1              0              0   -1                    1             1         0             1           1            1       1             -1         -1            1         -1             1                      -1                   1      -1
+4                  1           0                  -1                 1                         1             -1                  1               1                           -1        1     1            1            1              0              0   -1                    1             1         0            -1           1           -1       1             -1         -1            0         -1             1                       1                   1       1
+
+======================================================================
+  3. COLUMN NAMES
+======================================================================
+  [00] having_IP_Address
+  [01] URL_Length
+  [02] Shortining_Service
+  [03] having_At_Symbol
+  [04] double_slash_redirecting
+  [05] Prefix_Suffix
+  [06] having_Sub_Domain
+  [07] SSLfinal_State
+  [08] Domain_registeration_length
+  [09] Favicon
+  [10] port
+  [11] HTTPS_token
+  [12] Request_URL
+  [13] URL_of_Anchor
+  [14] Links_in_tags
+  [15] SFH
+  [16] Submitting_to_email
+  [17] Abnormal_URL
+  [18] Redirect
+  [19] on_mouseover
+  [20] RightClick
+  [21] popUpWidnow
+  [22] Iframe
+  [23] age_of_domain
+  [24] DNSRecord
+  [25] web_traffic
+  [26] Page_Rank
+  [27] Google_Index
+  [28] Links_pointing_to_page
+  [29] Statistical_report
+  [30] Result
+
+======================================================================
+  4. DATA TYPES
+======================================================================
+having_IP_Address              int64
+URL_Length                     int64
+Shortining_Service             int64
+having_At_Symbol               int64
+double_slash_redirecting       int64
+Prefix_Suffix                  int64
+having_Sub_Domain              int64
+SSLfinal_State                 int64
+Domain_registeration_length    int64
+Favicon                        int64
+port                           int64
+HTTPS_token                    int64
+Request_URL                    int64
+URL_of_Anchor                  int64
+Links_in_tags                  int64
+SFH                            int64
+Submitting_to_email            int64
+Abnormal_URL                   int64
+Redirect                       int64
+on_mouseover                   int64
+RightClick                     int64
+popUpWidnow                    int64
+Iframe                         int64
+age_of_domain                  int64
+DNSRecord                      int64
+web_traffic                    int64
+Page_Rank                      int64
+Google_Index                   int64
+Links_pointing_to_page         int64
+Statistical_report             int64
+Result                         int64
+
+======================================================================
+  5. MISSING VALUES
+======================================================================
+  No missing values found.
+
+======================================================================
+  6. DUPLICATE ROWS
+======================================================================
+  Duplicate rows : 5206
+
+======================================================================
+  7. UNIQUE TARGET VALUES
+======================================================================
+  Unique values in 'Result': [np.int64(-1), np.int64(1)]
+
+======================================================================
+  8. CLASS DISTRIBUTION (ORIGINAL)
+======================================================================
+    -1  (Phishing    ) :   4898  (44.31%)
+     1  (Legitimate  ) :   6157  (55.69%)
+
+======================================================================
+  9. INVALID / UNEXPECTED VALUES
+======================================================================
+  All feature values are within expected set {-1, 0, 1}.
+
+======================================================================
+  10. SUMMARY
+======================================================================
+  Total records   : 11055
+  Total features  : 30
+  Missing values  : 0
+  Duplicate rows  : 5206
+  Target classes  : [np.int64(-1), np.int64(1)]
+  Dataset status  : CLEAN
