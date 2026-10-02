@@ -37,3 +37,7 @@ fix_unicode.py
 
 # Large model files (comment out if you want to include saved models)
 # models/*.joblib
+
+# Old dataset backup
+*.old.arff
+.old.arff

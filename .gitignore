@@ -1,0 +1,3 @@
+﻿# Old dataset backup - ignore everywhere
+.old.arff
+*.old.arff
